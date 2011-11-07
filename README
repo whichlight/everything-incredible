@@ -1,0 +1,18 @@
+Sketches for an arduino and piezo based album, with a focus on generative
+composition. 
+
+I wanted to create generative music that could be encoded in a short function, and had
+to be played with a physical piece of hardware, rather than digital reading.  
+
+Here I use the Arduino with a piezo. I write a function to generate a string of
+numbers, which determines the oscillation of the piezo.  You can also play with
+the PWM of the sound. 
+
+I was inspired by this:
+http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html
+
+But i did not have /dev/audio on my mac, so I built the simple arduino circuit.  
+
+It would be cool to play with different housings for each composition.
+
+www.whichlight.com
